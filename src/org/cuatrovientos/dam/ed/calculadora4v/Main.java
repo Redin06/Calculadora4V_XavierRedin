@@ -7,6 +7,7 @@ public class Main {
 		
 	
 		Scanner scanner = new Scanner(System.in);
+		
 		int num1=0, num2=0, resultado=0;
 		String operacion;
 		
@@ -46,5 +47,6 @@ public class Main {
 		 }
 		 //Se devuelve la operacion con el resultado
 		 System.out.println("El resultado de "+num1+operacion+num2+" es igual a "+resultado);
+		 System.out.println(num1);
 		 
 }}
